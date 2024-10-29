@@ -42,7 +42,7 @@ const Contact = () => {
     event.preventDefault();
     //console.log(inputs);
     axios.post('http://localhost/React-Car-Rental-Website/admin/contact.php', inputs).then(function(response){
-      console.log(response.data);
+      alert(response.data);
     })
 
   }

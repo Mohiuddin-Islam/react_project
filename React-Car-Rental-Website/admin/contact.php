@@ -19,6 +19,6 @@ if($fname!="" && $email!="" && $phone!="" && $message!=""){
 
 
 if($mysqli->affected_rows)
-echo "Inserted";
+echo "Your message has been sent Successfully";
 
 ?>

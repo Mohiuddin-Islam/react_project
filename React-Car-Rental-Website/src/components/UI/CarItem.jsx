@@ -20,11 +20,12 @@ const CarItem = (props) => {
       });
   }
   return (
+    <>
     <Col lg="4" md="4" sm="6" className="mb-5">
       {users.map((user, key) =>
       <div className="car__item" key={key}>
         <div className="car__img">
-          <img src={`../../assets/all-images/vendor/img/${user.v_dpic}`} alt="img" className="w-100"/>
+          <img src={`http://localhost/React-Car-Rental-Website/admin/vend/img/${user.v_dpic}`} alt="img" className="w-100"/>
         </div>
 
         <div className="car__item-content mt-4">
@@ -56,6 +57,7 @@ const CarItem = (props) => {
       </div>
       )}
     </Col>
+    </>
   );
 };
 

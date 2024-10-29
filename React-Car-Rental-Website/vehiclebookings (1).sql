@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 28, 2024 at 06:55 PM
+-- Generation Time: Oct 28, 2024 at 04:36 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -192,14 +192,14 @@ CREATE TABLE `tms_vehicle` (
 --
 
 INSERT INTO `tms_vehicle` (`v_id`, `v_name`, `v_reg_no`, `v_pass_no`, `v_driver`, `v_category`, `v_dpic`, `v_price`, `start_date`, `last_date`, `v_status`) VALUES
-(24, 'Toyota', 'ACF-45634', '5', 'Safiq Ahmed', 'Land Cruiser', 'land_cruseir.png', 4500, '2024-09-29', '2024-09-29', 'Available'),
-(25, 'Audi', 'AF-75698', '5', 'Nur Hasan', 'Audi-R8', 'audiq8.png', 5000, '2024-09-29', '2024-09-29', 'Available'),
-(26, 'BMW', 'AC-15007', '5', 'Karim Mia', 'BMW-X8', 'bmwX8.png', 8000, '2024-09-29', '2024-09-29', 'Available'),
-(28, 'Toyota', 'ADF-42387', '5', 'Jamal Hossain', 'Hybrid', 'toyota_hybrid.png', 4000, '2024-09-29', '2024-09-29', 'Available'),
-(29, 'Honda', 'ACE-150077', '5', 'Sabuj Hossain', 'CV-R', 'honda_cvr.png', 3500, '2024-09-29', '2024-09-29', 'Available'),
-(30, 'TATA', 'ASF-75698', '5', 'Nur Hasan', 'Harrier-EV', 'Tata-Harrier-EV.png', 6000, '2024-09-29', '2024-09-29', 'Available'),
-(31, 'Mitsubishi', 'ASF-754507', '5', 'Jamal Hossain', 'X-Pander', 'mitsubeshi_xpander.png', 5500, '2024-09-29', '2024-09-29', 'Available'),
-(32, 'Volkswagen-Passat', 'AGC-256874', '5', 'Safin Ahmed', 'Sedan', 'volkswagen-passat-500.png', 4500, '2024-09-29', '2024-09-29', 'Available');
+(24, 'Toyota', 'ACF-45634', '5', 'Safiq Ahmed', 'Land Cruiser', 'land_cruseir.png', 2000, '2024-09-29', '2024-09-29', 'Available'),
+(25, 'Audi', 'AF-75698', '5', 'Nur Hasan', 'Audi-R8', 'audiq8.png', 2500, '2024-09-29', '2024-09-29', 'Available'),
+(26, 'BMW', 'AC-15007', '5', 'Karim Mia', 'BMW-X8', 'bmwX8.png', 3000, '2024-09-29', '2024-09-29', 'Available'),
+(28, 'Toyota', 'ADF-42387', '5', 'Jamal Hossain', 'Hybrid', 'toyota_hybrid.png', 2000, '2024-09-29', '2024-09-29', 'Available'),
+(29, 'Honda', 'ACE-150077', '5', 'Sabuj Hossain', 'CV-R', 'honda_cvr.png', 3000, '2024-09-29', '2024-09-29', 'Available'),
+(30, 'TATA', 'ASF-75698', '5', 'Nur Hasan', 'Harrier-EV', 'Tata-Harrier-EV.png', 1800, '2024-09-29', '2024-09-29', 'Available'),
+(31, 'Mitsubishi', 'ASF-754507', '5', 'Jamal Hossain', 'X-Pander', 'mitsubeshi_xpander.png', 2300, '2024-09-29', '2024-09-29', 'Available'),
+(32, 'Volkswagen-Passat', 'AGC-256874', '5', 'Safin Ahmed', 'Sedan', 'volkswagen-passat-500.png', 1200, '2024-09-29', '2024-09-29', 'Available');
 
 --
 -- Indexes for dumped tables
